@@ -17,7 +17,7 @@ go-timing-task是一个由Go开发的定时任务小框架。
 
 # 3. 使用方法
 ```cmd
-go get github.com/dekunt/go-timing-task
+go get github.com/dekunt/go-timing-task/task
 
 import "github.com/dekunt/go-timing-task/task"
 ```
