@@ -2,12 +2,12 @@ package task
 
 import "log"
 
-const LogTag = "go-timing-task: "
+const logTag = "[go-timing-task] "
 
 func logInfof(format string, args ...interface{}) {
-	log.Printf(LogTag+format+"\n", args...)
+	log.Printf(logTag+format+"\n", args...)
 }
 
 func logErrorf(format string, args ...interface{}) {
-	log.Fatalf(LogTag+format+"\n", args...)
+	log.Printf("[Error]"+logTag+format+"\n", args...)
 }

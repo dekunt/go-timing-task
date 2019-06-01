@@ -49,6 +49,10 @@ func (s *SyncTaskService) Run() {
 	logInfof("stopped")
 }
 
+func (s *SyncTaskService) Stop() {
+	s.server.Stop()
+}
+
 func (s *SyncTaskService) IsStopping() bool {
 	return s.server.IsStopping()
 }
